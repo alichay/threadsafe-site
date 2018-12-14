@@ -7,11 +7,11 @@ function typer($txt) {
 <html>
 	<head>
 		<meta charset='utf-8'>
-		<link rel='stylesheet' href='/assets/site.css'>
+		<link rel='stylesheet' href='assets/site.css'>
 	</head>
 	<body>
 		<canvas id='logo' height='300'>
-			<img src='/assets/logo.png'/>
+			<img src='assets/logo.png'/>
 		</canvas>
 		<h1 id='welcome' style='opacity: 0;'>
 			<?php echo typer('Hello, world!'); ?><br>
@@ -54,6 +54,6 @@ function typer($txt) {
 			<strong>Open Source</strong>
 		</div>
 
-		<script src='/assets/site.js'></script>
+		<script src='assets/site.js'></script>
 	</body>
 </html>

@@ -17,7 +17,7 @@ renderer.gammaOutput = true;
 renderer.setSize(300, 300);
 
 let glassMaterial = new THREE.MeshStandardMaterial({color: 0x021212, roughness: 0});
-let envMap = new THREE.TextureLoader().load('/assets/gloss.png');
+let envMap = new THREE.TextureLoader().load('assets/gloss.png');
 //envMap.mapping = THREE.SphericalReflectionMapping;
 envMap.mapping = THREE.EquirectangularReflectionMapping
 glassMaterial.envMap = envMap;
@@ -63,7 +63,7 @@ let animate = () => {
 }
 */
 
-loader.load('/assets/logo.glb', (gltf) => {
+loader.load('assets/logo.glb', (gltf) => {
 	console.log("Loaded!");
 	console.log(gltf);
 	cube = gltf.scene;
